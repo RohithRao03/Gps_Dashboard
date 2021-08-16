@@ -1,0 +1,29 @@
+.projects{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width:1080px) {
+  .projects{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
+  }
+}
+.time {
+    font-size: 9px !important
+}
+
+.socials i {
+    margin-right: 14px;
+    font-size: 17px;
+    color: #d2c8c8;
+    cursor: pointer
+}
+
+.feed-image img {
+    width: 100%;
+    height: auto
+}
